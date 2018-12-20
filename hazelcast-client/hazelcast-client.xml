@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<hazelcast-client xmlns="http://www.hazelcast.com/schema/client-config"
+                  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                  xsi:schemaLocation="http://www.hazelcast.com/schema/client-config
+                  http://www.hazelcast.com/schema/client-config/hazelcast-client-config-3.11.xsd">
+    <instance-name>scheduler-client</instance-name>
+    <group>
+        <name>hazelcast-scheduler-production</name>
+    </group>
+    <network>
+        <cluster-members>
+            <address>127.0.0.1:5701</address>
+            <address>127.0.0.1:5702</address>
+            <address>127.0.0.1:5703</address>
+        </cluster-members>
+        <aws enabled="false"/>
+        <gcp enabled="false"/>
+        <azure enabled="false"/>
+        <kubernetes enabled="false"/>
+        <eureka enabled="false"/>
+    </network>
+</hazelcast-client>
