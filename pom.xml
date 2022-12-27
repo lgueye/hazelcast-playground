@@ -25,7 +25,7 @@
         <formatter-maven-plugin.version>0.5.2</formatter-maven-plugin.version>
         <git-commit-id-plugin.version>2.2.5</git-commit-id-plugin.version>
         <guava.version>27.0.1-jre</guava.version>
-        <hazelcast.version>3.11</hazelcast.version>
+        <hazelcast.version>3.12.13</hazelcast.version>
         <hibernate-validator.version>6.1.5.Final</hibernate-validator.version>
         <httpclient.version>4.4</httpclient.version>
         <jackson.version>2.12.6.1</jackson.version>
